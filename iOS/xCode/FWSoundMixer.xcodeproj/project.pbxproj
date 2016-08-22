@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		181C885E18046041001E08A8 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 181C885D18046041001E08A8 /* FlashRuntimeExtensions.h */; };
+		182015F31D6A74C800F3D21C /* FW_exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182015ED1D6A74C800F3D21C /* FW_exception.cpp */; };
+		182015F41D6A74C800F3D21C /* FW_exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 182015EE1D6A74C800F3D21C /* FW_exception.h */; };
+		182015F51D6A74C800F3D21C /* FWSound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182015EF1D6A74C800F3D21C /* FWSound.cpp */; };
+		182015F61D6A74C800F3D21C /* FWSound.h in Headers */ = {isa = PBXBuildFile; fileRef = 182015F01D6A74C800F3D21C /* FWSound.h */; };
+		182015F71D6A74C800F3D21C /* FWSoundMixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182015F11D6A74C800F3D21C /* FWSoundMixer.cpp */; };
+		182015F81D6A74C800F3D21C /* FWSoundMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 182015F21D6A74C800F3D21C /* FWSoundMixer.h */; };
 		1824CF1E18040DEC00D6A6CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824CF1D18040DEC00D6A6CF /* Foundation.framework */; };
 		187838B9188C4DC300066EC1 /* ANEWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 187838B8188C4DC200066EC1 /* ANEWrapper.h */; };
-		189E84651A02D069004F4C1C /* FWSound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E84611A02D068004F4C1C /* FWSound.cpp */; };
-		189E84661A02D069004F4C1C /* FWSound.h in Headers */ = {isa = PBXBuildFile; fileRef = 189E84621A02D068004F4C1C /* FWSound.h */; };
-		189E84671A02D069004F4C1C /* FWSoundMixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E84631A02D068004F4C1C /* FWSoundMixer.cpp */; };
-		189E84681A02D069004F4C1C /* FWSoundMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 189E84641A02D068004F4C1C /* FWSoundMixer.h */; };
-		189E846E1A02DD7D004F4C1C /* FW_exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189E846C1A02DD7D004F4C1C /* FW_exception.cpp */; };
-		189E846F1A02DD7D004F4C1C /* FW_exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 189E846D1A02DD7D004F4C1C /* FW_exception.h */; };
 		18A27F6C18EC6F11000C61C1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A27F6B18EC6F11000C61C1 /* CoreVideo.framework */; };
 		18A27F6F18EC6F79000C61C1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A27F6E18EC6F79000C61C1 /* CoreMedia.framework */; };
 		18A27F7418EC7197000C61C1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A27F7318EC7197000C61C1 /* AVFoundation.framework */; };
@@ -24,16 +24,15 @@
 
 /* Begin PBXFileReference section */
 		181C885D18046041001E08A8 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		182015ED1D6A74C800F3D21C /* FW_exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FW_exception.cpp; path = ../../../common/FW_exception.cpp; sourceTree = "<group>"; };
+		182015EE1D6A74C800F3D21C /* FW_exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FW_exception.h; path = ../../../common/FW_exception.h; sourceTree = "<group>"; };
+		182015EF1D6A74C800F3D21C /* FWSound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FWSound.cpp; path = ../../../common/FWSound.cpp; sourceTree = "<group>"; };
+		182015F01D6A74C800F3D21C /* FWSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWSound.h; path = ../../../common/FWSound.h; sourceTree = "<group>"; };
+		182015F11D6A74C800F3D21C /* FWSoundMixer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FWSoundMixer.cpp; path = ../../../common/FWSoundMixer.cpp; sourceTree = "<group>"; };
+		182015F21D6A74C800F3D21C /* FWSoundMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWSoundMixer.h; path = ../../../common/FWSoundMixer.h; sourceTree = "<group>"; };
 		1824CF1A18040DEC00D6A6CF /* libencoderiOSANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libencoderiOSANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1824CF1D18040DEC00D6A6CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1824CF2118040DEC00D6A6CF /* FWSoundMixer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FWSoundMixer-Prefix.pch"; sourceTree = "<group>"; };
 		187838B8188C4DC200066EC1 /* ANEWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEWrapper.h; sourceTree = "<group>"; };
-		189E84611A02D068004F4C1C /* FWSound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FWSound.cpp; path = ../../../FWSound.cpp; sourceTree = "<group>"; };
-		189E84621A02D068004F4C1C /* FWSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWSound.h; path = ../../../FWSound.h; sourceTree = "<group>"; };
-		189E84631A02D068004F4C1C /* FWSoundMixer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FWSoundMixer.cpp; path = ../../../FWSoundMixer.cpp; sourceTree = "<group>"; };
-		189E84641A02D068004F4C1C /* FWSoundMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWSoundMixer.h; path = ../../../FWSoundMixer.h; sourceTree = "<group>"; };
-		189E846C1A02DD7D004F4C1C /* FW_exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FW_exception.cpp; path = ../../../../ffmpeg_encoder/FW_exception.cpp; sourceTree = "<group>"; };
-		189E846D1A02DD7D004F4C1C /* FW_exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FW_exception.h; path = ../../../../ffmpeg_encoder/FW_exception.h; sourceTree = "<group>"; };
 		18A27F6B18EC6F11000C61C1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		18A27F6E18EC6F79000C61C1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		18A27F7318EC7197000C61C1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -88,12 +87,12 @@
 		1824CF1F18040DEC00D6A6CF /* FWSoundMixer */ = {
 			isa = PBXGroup;
 			children = (
-				189E846C1A02DD7D004F4C1C /* FW_exception.cpp */,
-				189E846D1A02DD7D004F4C1C /* FW_exception.h */,
-				189E84611A02D068004F4C1C /* FWSound.cpp */,
-				189E84621A02D068004F4C1C /* FWSound.h */,
-				189E84631A02D068004F4C1C /* FWSoundMixer.cpp */,
-				189E84641A02D068004F4C1C /* FWSoundMixer.h */,
+				182015ED1D6A74C800F3D21C /* FW_exception.cpp */,
+				182015EE1D6A74C800F3D21C /* FW_exception.h */,
+				182015EF1D6A74C800F3D21C /* FWSound.cpp */,
+				182015F01D6A74C800F3D21C /* FWSound.h */,
+				182015F11D6A74C800F3D21C /* FWSoundMixer.cpp */,
+				182015F21D6A74C800F3D21C /* FWSoundMixer.h */,
 				18DF50F1188C236100EECC6A /* ANEWrapper.m */,
 				187838B8188C4DC200066EC1 /* ANEWrapper.h */,
 				181C885D18046041001E08A8 /* FlashRuntimeExtensions.h */,
@@ -106,7 +105,6 @@
 		1824CF2018040DEC00D6A6CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1824CF2118040DEC00D6A6CF /* FWSoundMixer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,10 +117,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				181C885E18046041001E08A8 /* FlashRuntimeExtensions.h in Headers */,
+				182015F61D6A74C800F3D21C /* FWSound.h in Headers */,
+				182015F41D6A74C800F3D21C /* FW_exception.h in Headers */,
 				187838B9188C4DC300066EC1 /* ANEWrapper.h in Headers */,
-				189E84661A02D069004F4C1C /* FWSound.h in Headers */,
-				189E84681A02D069004F4C1C /* FWSoundMixer.h in Headers */,
-				189E846F1A02DD7D004F4C1C /* FW_exception.h in Headers */,
+				182015F81D6A74C800F3D21C /* FWSoundMixer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,9 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DF50F2188C236100EECC6A /* ANEWrapper.m in Sources */,
-				189E84651A02D069004F4C1C /* FWSound.cpp in Sources */,
-				189E84671A02D069004F4C1C /* FWSoundMixer.cpp in Sources */,
-				189E846E1A02DD7D004F4C1C /* FW_exception.cpp in Sources */,
+				182015F71D6A74C800F3D21C /* FWSoundMixer.cpp in Sources */,
+				182015F31D6A74C800F3D21C /* FW_exception.cpp in Sources */,
+				182015F51D6A74C800F3D21C /* FWSound.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +238,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../Debug;
 				DSTROOT = /tmp/ANEGeneric.dst;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -254,13 +253,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = (
-					../../boost_atomic/,
-					"/Users/apple/Desktop/build_tools/ffmpeg/ffmpeg-1.1/armv7/include/**",
-				);
+				HEADER_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = encoderiOSANE;
+				PRODUCT_NAME = FWSoundMixerANE;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALID_ARCHS = "armv7 arm64";
@@ -272,18 +268,16 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../Release;
 				DSTROOT = /tmp/ANEGeneric.dst;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ANEGeneric/FWSoundMixer-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = (
-					../../boost_atomic/,
-					"/Users/apple/Desktop/build_tools/ffmpeg/ffmpeg-1.1/armv7/include/**",
-				);
+				HEADER_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = encoderiOSANE;
+				PRODUCT_NAME = FWSoundMixerANE;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALID_ARCHS = "armv7 arm64";

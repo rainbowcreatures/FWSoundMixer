@@ -2,7 +2,7 @@
 <swc xmlns="http://www.adobe.com/flash/swccatalog/9">
     <versions>
         <swc version="1.2"/>
-        <compiler name="ActionScript Compiler" version="2.0.0" build="354143"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354156"/>
     </versions>
     <features>
         <feature-script-deps/>
@@ -27,7 +27,7 @@
                 <dep id="flash.net:URLRequest" type="s"/>
                 <dep id="flash.utils:ByteArray" type="s"/>
             </script>
-            <script name="com/rainbowcreatures/FWSoundMixer" mod="1422713709000">
+            <script name="com/rainbowcreatures/FWSoundMixer" mod="1445868866000">
                 <def id="com.rainbowcreatures:FWSoundMixer"/>
                 <dep id="Boolean" type="s"/>
                 <dep id="Error" type="e"/>
@@ -43,9 +43,9 @@
                 <dep id="flash.media:Sound" type="s"/>
                 <dep id="flash.media:SoundCodec" type="e"/>
                 <dep id="flash.media:SoundMixer" type="e"/>
+                <dep id="flash.system:Capabilities" type="e"/>
                 <dep id="flash.utils:ByteArray" type="e"/>
                 <dep id="flash.utils:Endian" type="e"/>
-                <dep id="flash.utils:getTimer" type="e"/>
                 <dep id="int" type="s"/>
                 <dep id="trace" type="e"/>
                 <dep id="uint" type="e"/>
@@ -55,7 +55,7 @@
                 <dep id="Object" type="i"/>
             </script>
             <digests>
-                <digest type="SHA-256" signed="false" value="4866eab50b386639eec7c6ad740f0148dd7773acd44d94234e5fe795340f6d6d"/>
+                <digest type="SHA-256" signed="false" value="4ca11cc5b52f2aba1a87623a3a147357535ff058c7f5f6e0a28013fbe430a2ac"/>
             </digests>
         </library>
     </libraries>
