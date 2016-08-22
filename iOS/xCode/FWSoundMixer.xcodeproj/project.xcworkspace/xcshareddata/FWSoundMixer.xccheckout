@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>35D9FFF3-7952-45BE-AA85-D76083658DB3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FWSoundMixer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2ac2b734-e9cf-4987-a53c-52703388afe2</key>
+		<string>https://rainbowcreatures.unfuddle.com/svn/rainbowcreatures_flashywrappers</string>
+		<key>2ac2b734-e9cf-4987-a53c-52703388afe2++4952</key>
+		<string>https://rainbowcreatures.unfuddle.com/svn/rainbowcreatures_flashywrappers/ffmpeg_encoder/iOS/xCode</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FWSoundMixer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2ac2b734-e9cf-4987-a53c-52703388afe2</key>
+		<string>../../../rainbowcreatures_flashywrappers</string>
+		<key>2ac2b734-e9cf-4987-a53c-52703388afe2++4952</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>2ac2b734-e9cf-4987-a53c-52703388afe2++4952</key>
+		<string>https://rainbowcreatures.unfuddle.com/svn/rainbowcreatures_flashywrappers</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://rainbowcreatures.unfuddle.com/svn/rainbowcreatures_flashywrappers/ffmpeg_encoder/iOS/xCode/FWSoundMixer.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2ac2b734-e9cf-4987-a53c-52703388afe2++4952</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2ac2b734-e9cf-4987-a53c-52703388afe2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rainbowcreatures_flashywrappers</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2ac2b734-e9cf-4987-a53c-52703388afe2++4952</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/20.0">
+    <id>com.rainbowcreatures.FWSoundMixerANE</id>
+    <versionNumber>1</versionNumber>
+    <platforms>
+	<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>FWSoundMixer.jar</nativeLibrary>
+				<initializer>com.rainbowcreatures.FWSoundMixer</initializer>
+				<finalizer>com.rainbowcreatures.FWSoundMixer</finalizer>
+			</applicationDeployment>
+	</platform>
+    </platforms>
+</extension>

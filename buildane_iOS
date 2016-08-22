@@ -1,0 +1,30 @@
+#!/bin/bash
+
+ACOMPC="/Users/apple//Desktop/air_16/bin/acompc"
+ADT="/Users/apple/Desktop/air_16/bin/adt"
+VERSION="FWSoundMixer/1.0"
+
+SWFVERSION=18
+
+INCLUDE_CLASSES="com.rainbowcreatures.FWSoundMixer com.rainbowcreatures.swf.Dummy com.rainbowcreatures.FWSound"
+NAME="FWSoundMixerANE"
+
+echo "Generating SWC"
+$ACOMPC -source-path="/Users/apple/Desktop/Flash_Native_Extensions/FlashyWrappers_SVN/rainbowcreatures_flashywrappers/FWSoundMixer/iOS/" -include-classes $INCLUDE_CLASSES -swf-version=$SWFVERSION -target-player=11.5 -output $NAME.swc
+sleep 3
+
+cp $NAME.swc iOS/ane/$NAME.swc
+echo "GENERATING LIBRARY from SWC"
+unzip $NAME.swc -d iOS
+sleep 2
+[[ -f "catalog.xml" ]] && rm -f "catalog.xml"
+
+echo "GENERATING ANE"
+$ADT -package -target ane iOS/ane/$NAME.ane /Users/apple/Desktop/Flash_Native_Extensions/FlashyWrappers_SVN/rainbowcreatures_flashywrappers/FWSoundMixer/iOS/extension.xml -swc $NAME.swc -platform iPhone-ARM -C iOS library.swf lib$NAME.a -platformoptions iOS/platform.xml
+sleep 2
+[[ -f "library.swf" ]] && rm -f "library.swf"
+
+cp iOS/ane/$NAME.ane /Users/apple/Dropbox/$NAME.ane
+cp iOS/ane/$NAME.ane  ../releases/$VERSION/lib/iOS/$NAME.ane
+
+echo "DONE!"
