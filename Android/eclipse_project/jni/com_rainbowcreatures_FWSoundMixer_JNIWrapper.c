@@ -5,9 +5,9 @@
 #include <sstream>
 
 #include "com_rainbowcreatures_FWSoundMixer_JNIWrapper.h"
-#include "FWSoundMixer.h"
-#include "FWSound.h"
-#include "FW_exception.h"
+#include "../../../common/FWSoundMixer.h"
+#include "../../../common/FWSound.h"
+#include "../../../common/FW_exception.h"
 
 #include <android/log.h>
 

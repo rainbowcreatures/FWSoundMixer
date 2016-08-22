@@ -4,13 +4,13 @@ ACOMPC="/Users/apple//Desktop/air_16/bin/acompc"
 ADT="/Users/apple/Desktop/air_16/bin/adt"
 VERSION="FWSoundMixer/1.0"
 
-SWFVERSION=18
+SWFVERSION=31
 
 INCLUDE_CLASSES="com.rainbowcreatures.FWSoundMixer com.rainbowcreatures.swf.Dummy com.rainbowcreatures.FWSound"
 NAME="FWSoundMixerANE"
 
 echo "Generating SWC"
-$ACOMPC -source-path="/Users/apple/Desktop/Flash_Native_Extensions/FlashyWrappers_SVN/rainbowcreatures_flashywrappers/FWSoundMixer/iOS/" -include-classes $INCLUDE_CLASSES -swf-version=$SWFVERSION -target-player=11.5 -output $NAME.swc
+$ACOMPC -source-path="/Users/apple/Desktop/Flash_Native_Extensions/FlashyWrappers_SVN/rainbowcreatures_flashywrappers/FWSoundMixer/iOS/" -include-classes $INCLUDE_CLASSES -swf-version=$SWFVERSION -target-player=20 -output $NAME.swc
 sleep 3
 
 cp $NAME.swc iOS/ane/$NAME.swc

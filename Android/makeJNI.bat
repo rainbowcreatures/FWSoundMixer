@@ -1,1 +1,1 @@
-javah -force -classpath ./java/bin/classes/ -d ./jni-c/ com.rainbowcreatures.FWSoundMixer_JNIWrapper
+javah -force -classpath ./eclipse_project/bin/classes/ -d ./jni-c/ com.rainbowcreatures.FWSoundMixer_JNIWrapper
