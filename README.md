@@ -17,7 +17,7 @@ Those platforms use identical source code file, luckily AVFoundation is almost i
 
 Source code taken from the example:
 
-```
+```javascript
 package  {	
 	// comment these 3 out for Flash Player compilation. AIR freaks out when these are put into 
 	// compiler constants, thinking there's no ActionScript code at all (bug?)
