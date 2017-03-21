@@ -1,6 +1,7 @@
 # FlashyWrappers SDK: FWSoundMixer
 
 *WORK IN PROGRESS - Flash version built only, iOS and Android needs to be tested yet.*
+*UPDATE 2017 - If you're using this to record audio from FWVideoEncoder on iOS, check out the FlashyWrappers ReplayKit update which records all playing audio by default*
 
 This library is part of FlashyWrappers but can be used as standalone. Originally created to make recording Flash Sounds possible, it is a simple multiplatform sound mixer with accessible PCM data which can be further worked with (saved, sent to FlashyWrappers etc.).
 Only mobile ANE's are available, for desktop it is assumed you'll use the Flash FlasCC / Crossbridge build which should be fast enough. Windows and OS X ANE"s should be easy to add though.
